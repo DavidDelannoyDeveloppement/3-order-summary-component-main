@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: #cccccc;
+    height: 425px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Red Hat Display';
+}
+
+
+
+
+
+/*CSS Main Section*/ 
+.panneau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 96px;
+    width: 402px;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 15px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+.panneau img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin : 44px 20px;
+    font-weight: 900;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+p1 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: darkgray;
+    margin : 13px 60px 20px 60px;
+}
+
+
+
+
+
+/*CSS subscription section */
+.panneau-milieu {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    background-color: hsl(225, 100%, 98%);
+    width: 315.60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.panneau-milieu img {
+    width: 41.6px;
+    height: 41.6px;
+    margin-right: 19px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 19px;
+}
+
+.panneau-milieu-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.panneau-milieu-2 h2 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.panneau-milieu-2 p {
+    margin: 0;
+    color: grey;
+}
+
+.panneau-milieu a {
+    margin-left: 83.14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 13px;
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+}
+
+.panneau-milieu a:hover {
+    color: hsl(245, 75%, 52%, 0.6);
+    text-decoration: none;
+}
+
+
+
+
+
+/*CSS payment or cancellation section*/
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    width: 315.60px;
+    height: 43.46px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid 0px;
+    box-shadow: 0px 15px 10px 1px rgba(224, 232, 255, 0.842);
+} 
+
+button:hover {
+    background-color: hsl(245, 75%, 52%, 0.6);
+}
+
+p2 {
+    font-size: 14px;
+    color :grey;
+    font-weight: 700;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 49px;
+}
+
+p2:hover {
+    color: black;
+}
+
+
+
+
+
+/*CSS Footer*/
+
+.attribution { 
+    font-size: 14px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
+}
+
+.attribution c {
+    font-size: 18px; 
+    color: rgb(255, 120, 0);
+    font-family: Monotype Corsiva;
+    text-decoration: none;
+}
+
+
+
+
+
+/*CSS Responsive */
+
+@media only screen and (max-width: 767px) {
+    .panneau {
+
+        margin-top: 96px;
+        width: 325px;
+    }
+}
